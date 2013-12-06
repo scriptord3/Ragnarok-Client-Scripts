@@ -1,0 +1,21 @@
+epsoid111Quest_List = {
+		[1337] = { 
+				NPCFromName = [[Sincere Follower Urstialla]],
+				NPCFromMap = [[rachel]],
+				NPCFromSpr = [[4_F_MASK1]],
+				NPCFromX = 157,
+				NPCFromY = 183,
+				NPCToName = [[Sincere Follower Urstialla]],
+				NPCToMap = [[rachel]],
+				NPCToSpr = [[4_F_MASK1]],
+				NPCToX = 157,
+				NPCToY = 183,
+				Item = [[]],
+				PrizeItem = [[ < image = "5017">Bone Helm<\end> (1)]],
+				Title = [[Ktullunux]],
+				Info = [[Lol KT]],
+				Hunt = [[]],
+				Time = [[60]],
+				LV = [[0]],
+			},
+}

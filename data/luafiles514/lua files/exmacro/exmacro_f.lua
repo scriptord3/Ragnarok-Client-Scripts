@@ -1,0 +1,11 @@
+--Function #0
+GetExMacroFileName = function(index, str)
+	if index == 0 or index > 9 then
+		index = 1
+	end
+	local obj = SaveData_ExMacro_FileNames[index]
+	if obj ~= nil or obj == "" then
+		return obj
+	end
+	return str
+end
