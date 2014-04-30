@@ -1,5 +1,5 @@
 ReqAccName = function(index)
-   if AccNameTable[index] == nil then
+   if AccNameTable == nil then
       return ""
    end
    local NameMsg = AccNameTable[index]
@@ -8,4 +8,17 @@ ReqAccName = function(index)
    else
       return ""
    end
+end
+
+ReqAccName_V2 = function(index)
+  if iAccNameTable_Eng == nil then
+    return ReqAccName(index)
+  else
+    local NameMsg = AccNameTable_Eng[index]
+    if NameMsg ~= nil then
+      return NameMsg
+    end
+  end
+  do return end
+  return ReqAccName(index)
 end
