@@ -112,7 +112,7 @@ PCJobNameTable = {
 	[pcJobTbl.JT_SUPERNOVICE2] = "SUPERNOVICE2",
 	[pcJobTbl.JT_SUPERNOVICE2_B] = "SUPERNOVICE2_B",
 	[pcJobTbl.JT_KAGEROU] = "KAGEROU",
-	[pcJobTbl.JT_OBORO] = "OBORO",
+	[pcJobTbl.JT_OBORO] = "OBORO"
 }
 
 --Function #0
