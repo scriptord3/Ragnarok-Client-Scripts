@@ -1,7 +1,7 @@
 --===============================================
 -- filename : skillId.lua
 -- author : scriptor
--- created :  Dec 5, 2013
+-- created :  Jan 31, 2014
 --===============================================
 
 SKID = {
@@ -732,6 +732,14 @@ SKID = {
 	NPC_REVERBERATION = 725,
 	NPC_REVERBERATION_ATK = 726,
 	NPC_LEX_AETERNA = 727,
+	SKILL_730 = 730,
+	SKILL_731 = 731,
+	SKILL_732 = 732,
+	SKILL_733 = 733,
+	SKILL_734 = 734,
+	SKILL_735 = 735,
+	SKILL_736 = 736,
+	SKILL_737 = 737,
 	KN_CHARGEATK = 1001,
 	CR_SHRINK = 1002,
 	AS_SONICACCEL = 1003,
@@ -1117,6 +1125,7 @@ SKID = {
 	BA_POEMBRAGI2 = 3036,
 	DC_FORTUNEKISS2 = 3037,
 	GM_FORCE_TRANSFER = 3039,
+	GM_WIDE_RESURRECTION = 3040,
 	GC_DARKCROW = 5001,
 	RA_UNLIMIT = 5002,
 	GN_ILLUSIONDOPING = 5003,

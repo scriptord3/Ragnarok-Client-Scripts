@@ -23,12 +23,16 @@ StateIconImgList =
 		[EFST_IDs.EFST_KG_KAGEHUMI] = [[KG_KAGEHUMI.TGA]],
 		[EFST_IDs.EFST_KYOMU] = [[KYOMU.TGA]],
 		[EFST_IDs.EFST_AKAITSUKI] = [[AKAITSUKI.TGA]],
-		[EFST_IDs.EFST_HANDICAPSTATE_ICEEXPLO] = [[다이아몬드더스트.TGA]],
+		--[EFST_IDs.EFST_HANDICAPSTATE_ICEEXPLO] = [[다이아몬드더스트.TGA]],
 		[EFST_IDs.EFST_DARKCROW] = [[DARKCROW.TGA]],		
 		[EFST_IDs.EFST_REBOUND] = [[REBOUND.TGA]],
 		[EFST_IDs.EFST_CHILL] = [[i_starcomfort.tga]],		
 		[EFST_IDs.EFST_BURNT] = [[오버히트.tga]],
 		[EFST_IDs.EFST_GLASTHEIM_TRANS] = [[GLASTHEIM_TRANS.tga]],
+		[EFST_IDs.EFST_B_TRAP] = [[바인드트랩.tga]],
+		[EFST_IDs.EFST_P_ALTER] = [[플래티넘알터.tga]],
+		[EFST_IDs.EFST_C_MARKER] = [[크림즌마커.tga]],
+		[EFST_IDs.EFST_HEAT_BARREL_AFTER] = [[REBOUND.TGA]]
 	},
 
 	[PRIORITY_BLUE] = -- 소비 아이템 버프 아이콘
@@ -92,6 +96,16 @@ StateIconImgList =
 		[EFST_IDs.EFST_PACKING_ENVELOPE9] = [[회복력향상포션.tga]],
 		[EFST_IDs.EFST_PACKING_ENVELOPE10] = [[회복력향상포션.tga]],
 		[EFST_IDs.EFST_ZONGZI_POUCH_TRANS] = [[UNLIMIT.TGA]],
+		[EFST_IDs.EFST_OVERSEAEXPUP] = [[exp.tga]],
+		[EFST_IDs.EFST_OVERLAPEXPUP] = [[EXP_말랑도_고양이캔.tga]],
+		[EFST_IDs.EFST_BEEF_RIB_STEW] = [[대환단.tga]],
+		[EFST_IDs.EFST_PORK_RIB_STEW] = [[태청단.tga]],
+		[EFST_IDs.EFST_CHUSEOK_MONDAY] = [[gogi.TGA]],
+		[EFST_IDs.EFST_CHUSEOK_TUESDAY] = [[gogi.TGA]],
+		[EFST_IDs.EFST_CHUSEOK_WEDNESDAY] = [[gogi.TGA]],
+		[EFST_IDs.EFST_CHUSEOK_THURSDAY] = [[gogi.TGA]],
+		[EFST_IDs.EFST_CHUSEOK_FRIDAY] = [[gogi.TGA]],
+		[EFST_IDs.EFST_CHUSEOK_WEEKEND] = [[gogi.TGA]]
 	},
 
 	[PRIORITY_GREEN] = -- 장비 아이템 버프 아이콘
@@ -121,5 +135,8 @@ StateIconImgList =
 		[EFST_IDs.EFST_FULL_THROTTLE] = [[FULL_THROTTLE.TGA]],
 		[EFST_IDs.EFST_OFFERTORIUM] = [[OFFERTORIUM.TGA]],
 		[EFST_IDs.EFST_TELEKINESIS_INTENSE] = [[TELEKINESIS_INTENSE.TGA]],
+		[EFST_IDs.EFST_E_CHAIN] = [[이터널체인.tga]],
+		[EFST_IDs.EFST_HEAT_BARREL] = [[히트배럴.tga]],
+		[EFST_IDs.EFST_ANTI_M_BLAST] = [[안티매터리얼.tga]]
 	},
 }

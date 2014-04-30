@@ -1,9 +1,9 @@
-ReqshadowFactor = function(index)
+ReqshadowFactor = function(shadowID)
   if ShadowFactorTable == nil then
     return -1
   end
-  if ShadowFactorTable[index] ~= nil then
-    return ShadowFactorTable[index]
+  if ShadowFactorTable[shadowID] ~= nil then
+    return ShadowFactorTable[shadowID]
   else
     return -1
   end

@@ -51,7 +51,8 @@ SKILL_EFFECT_INFO_LIST = {
 		effectID = {
 			EFID.EF_THROW_HAPPOKUNAI,
 			EFID.EF_ROTATE_LINE_GRAY
-		}
+		},
+		LaunchZC_USE_SKILL = true
 	},
 
 	[SKID.KO_MUCHANAGE] = {
@@ -131,7 +132,7 @@ SKILL_EFFECT_INFO_LIST = {
 		waveFileName = "effect\\닌자_던지기.wav",
 		effectNum = 1,
 		effectID = {
-			EFID.EF_KAIHOU,
+			EFID.EF_KAIHOU
 		},
 		targetEffectNum = 1,
 		targetEffectID = {
@@ -236,5 +237,73 @@ SKILL_EFFECT_INFO_LIST = {
 
 	[SKID.ECLAGE_RECALL] = {
 		beginEffectID = EFID.EF_BEGINSPELL
+	},
+
+	[SKID.RL_D_TAIL] = {
+		targetWaveFileName = "effect\\RL_D_TAIL.wav",
+		targetEffectNum = 1,
+		targetEffectID = {
+			EFID.EF_D_TAIL
+		}
+	},
+
+	[SKID.RL_B_TRAP] = {
+		targetWaveFileName = "effect\\RL_B_TRAP.wav"
+	},
+
+	[SKID.RL_BANISHING_BUSTER] = {
+		targetWaveFileName = "effect\\RL_BANISHING_BUSTER.wav",
+		targetEffectNum = 1,
+		targetEffectID = {
+			EFID.EF_BANISHING_BUSTER
+		}
+	},
+
+	[SKID.RL_S_STORM] = {
+		targetWaveFileName = "effect\\RL_S_STORM.wav",
+		targetEffectNum = 1,
+		targetEffectID = {
+			EFID.EF_S_STORM
+		}
+	},
+
+	[SKID.RL_SLUGSHOT] = {
+		targetWaveFileName = "effect\\RL_SLUGSHOT.wav",
+		targetEffectNum = 1,
+		targetEffectID = {
+			EFID.EF_SLUGSHOT
+		}
+	},
+
+	[SKID.RL_AM_BLAST] = {
+		targetWaveFileName = "effect\\RL_AM_BLAST.wav"
+	},
+
+	[SKID.RL_C_MARKER] = {
+		targetWaveFileName = "effect\\RL_C_MARKER.wav"
+	},
+
+	[SKID.RL_FIRE_RAIN] = {
+		targetWaveFileName = "effect\\RL_FIRE_RAIN.wav"
+	},
+
+	[SKID.RL_FLICKER] = {
+		waveFileName = "effect\\RL_FLICKER.wav",
+		effectNum = 1,
+		effectID = {
+			EFID.EF_CONCENTRATION
+		}
+	},
+
+	[SKID.RL_H_MINE] = {
+		targetWaveFileName = "effect\\RL_H_MINE.wav"
+	},
+
+	[SKID.RL_HAMMER_OF_GOD] = {
+		targetWaveFileName = "effect\\RL_HAMMER_OF_GOD.wav",
+		targetEffectNum = 1,
+		targetEffectID = {
+			EFID.EF_HAMMER_OF_GOD
+		}
 	}
 }

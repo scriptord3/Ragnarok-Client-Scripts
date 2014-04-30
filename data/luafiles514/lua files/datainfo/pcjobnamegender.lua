@@ -139,7 +139,7 @@ PCJobNameTableMan  = {
 	[pcJobTbl2.JT_SUPERNOVICE2] = "Super Novice",
 	[pcJobTbl2.JT_SUPERNOVICE2_B] = "Super Baby",
 	[pcJobTbl2.JT_KAGEROU] = "KAGEROU",
-	[pcJobTbl2.JT_OBORO] = "OBORO",
+	[pcJobTbl2.JT_OBORO] = "OBORO"
 }
 
 PCJobNameTableWoman = {
@@ -283,5 +283,5 @@ PCJobNameTableWoman = {
 	[pcJobTbl2.JT_SUPERNOVICE2] = "Super Novice",
 	[pcJobTbl2.JT_SUPERNOVICE2_B] = "Super Baby",
 	[pcJobTbl2.JT_KAGEROU] = "KAGEROU",
-	[pcJobTbl2.JT_OBORO] = "OBORO",
+	[pcJobTbl2.JT_OBORO] = "OBORO"
 }

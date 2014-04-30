@@ -1,7 +1,7 @@
 --===============================================
 -- filename : skillinfolist.lua
 -- author : scriptor
--- created :  Dec 5, 2013
+-- created :  Feb 12, 2014
 --===============================================
 
 SKILL_INFO_LIST = {
@@ -782,7 +782,7 @@ SKILL_INFO_LIST = {
 		"WZ_FIREIVY";
 		SkillName = [[Fire Ivy]],
 		MaxLv = 0,
-		SpAmount = { 12, 14, 16, 18, 20, 22, 24, 26, 28, 30 },
+		SpAmount = { 12, 14, 16, 18, 20, 22, 24, 26, 28, 30 }
 	},
 	[SKID.WZ_METEOR] = {
 		"WZ_METEOR";
@@ -2712,7 +2712,7 @@ SKILL_INFO_LIST = {
 	[SKID.BD_RAGNAROK] = {
 		"BD_RAGNAROK";
 		SkillName = [[Ragnarok]],
-		MaxLv = 0,
+		MaxLv = 0
 	},
 	[SKID.BA_MUSICALLESSON] = {
 		"BA_MUSICALLESSON";
@@ -2750,6 +2750,7 @@ SKILL_INFO_LIST = {
 		_NeedSkillList = {
 			{ SKID.BD_ENCORE, 1 }
 		},
+		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.BA_WHISTLE] = {
 		"BA_WHISTLE";
@@ -3363,12 +3364,12 @@ SKILL_INFO_LIST = {
 	[SKID.CR_ALCHEMY] = {
 		"CR_ALCHEMY";
 		SkillName = [[Alchemy]],
-		MaxLv = 0,
+		MaxLv = 0
 	},
 	[SKID.CR_SYNTHESISPOTION] = {
 		"CR_SYNTHESISPOTION";
 		SkillName = [[Potion Synthesis]],
-		MaxLv = 0,
+		MaxLv = 0
 	},
 	[SKID.CG_ARROWVULCAN] = {
 		"CG_ARROWVULCAN";
@@ -4365,12 +4366,12 @@ SKILL_INFO_LIST = {
 		"KN_ONEHAND";
 		SkillName = [[One Handed Quicken]],
 		MaxLv = 1,
-		SpAmount = { 100, 100, 100, 100, 100, 100, 100, 100, 100, 100 },
+		SpAmount = { 100 },
 		_NeedSkillList = {
 			{ SKID.KN_TWOHANDQUICKEN, 10 }
 		},
 		Type = [[Quest]],
-		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
+		AttackRange = { 1 }
 	},
 	[SKID.AM_TWILIGHT1] = {
 		"AM_TWILIGHT1";
@@ -6005,6 +6006,38 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		AttackRange = { 1, 1, 1, 1, 1 }
+	},
+	[SKID.SKILL_730] = {
+		"SKILL_730";
+		SkillName = [[]],
+	},
+	[SKID.SKILL_731] = {
+		"SKILL_731";
+		SkillName = [[]],
+	},
+	[SKID.SKILL_732] = {
+		"SKILL_732";
+		SkillName = [[]],
+	},
+	[SKID.SKILL_733] = {
+		"SKILL_733";
+		SkillName = [[]],
+	},
+	[SKID.SKILL_734] = {
+		"SKILL_734";
+		SkillName = [[]],
+	},
+	[SKID.SKILL_735] = {
+		"SKILL_735";
+		SkillName = [[]],
+	},
+	[SKID.SKILL_736] = {
+		"SKILL_736";
+		SkillName = [[]],
+	},
+	[SKID.SKILL_737] = {
+		"SKILL_737";
+		SkillName = [[]],
 	},
 	[SKID.KN_CHARGEATK] = {
 		"KN_CHARGEATK";
@@ -8953,7 +8986,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.ALL_RAY_OF_PROTECTION] = {
 		"ALL_RAY_OF_PROTECTION";
-		SkillName = [[¼öÈ£ÀÇ ºû ]],
+		SkillName = [[¼öÈ£ÀÇ ºû]],
 		MaxLv = 1,
 		SpAmount = { 0 },
 		AttackRange = { 1 }
@@ -8962,8 +8995,8 @@ SKILL_INFO_LIST = {
 		"MC_CARTDECORATE";
 		SkillName = [[Cart Decoration]],
 		MaxLv = 10,
-		SpAmount = { 0 },
-		AttackRange = { 1 }
+		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.GM_ITEM_ATKMAX] = {
 		"GM_ITEM_ATKMAX";
@@ -9537,9 +9570,16 @@ SKILL_INFO_LIST = {
 		SpAmount = { 0 },
 		AttackRange = { 18 }
 	},
+	[SKID.GM_WIDE_RESURRECTION] = {
+		"GM_WIDE_RESURRECTION";
+		SkillName = [[¹üÀ§ ¸®Àú·º¼Ç]],
+		MaxLv = 1,
+		SpAmount = { 0 },
+		AttackRange = { 9 }
+	},
 	[SKID.GC_DARKCROW] = {
 		"GC_DARKCROW";
-		SkillName = [[°ËÀº ¼ÕÅé]],
+		SkillName = [[Dark Claw]],
 		MaxLv = 5,
 		SpAmount = { 22, 34, 46, 58, 70 },
 		_NeedSkillList = {
@@ -9549,7 +9589,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.RA_UNLIMIT] = {
 		"RA_UNLIMIT";
-		SkillName = [[¾ð¸®¹Ô]],
+		SkillName = [[No Limits]],
 		MaxLv = 5,
 		SpAmount = { 100, 120, 140, 160, 180 },
 		_NeedSkillList = {
@@ -9559,7 +9599,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.GN_ILLUSIONDOPING] = {
 		"GN_ILLUSIONDOPING";
-		SkillName = [[È¯°¢ µµÇÎ]],
+		SkillName = [[Hallucination Drug]],
 		MaxLv = 5,
 		SpAmount = { 60, 70, 80, 90, 100 },
 		_NeedSkillList = {
@@ -9569,7 +9609,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.RK_DRAGONBREATH_WATER] = {
 		"RK_DRAGONBREATH_WATER";
-		SkillName = [[µå·¡°ï ºê·¹½º - ¼ö]],
+		SkillName = [[Dragon Breath - Water]],
 		MaxLv = 10,
 		SpAmount = { 30, 35, 40, 45, 50, 55, 60, 65, 70, 75 },
 		_NeedSkillList = {
@@ -9583,7 +9623,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NC_MAGMA_ERUPTION] = {
 		"NC_MAGMA_ERUPTION";
-		SkillName = [[¿ë¾Ï ºÐÃâ]],
+		SkillName = [[Magma Eruption]],
 		MaxLv = 5,
 		SpAmount = { 60, 70, 80, 90, 100 },
 		_NeedSkillList = {
@@ -9593,7 +9633,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.WM_FRIGG_SONG] = {
 		"WM_FRIGG_SONG";
-		SkillName = [[Ç³¿äÀÇ ³ë·¡]],
+		SkillName = [[Frigg's Song]],
 		MaxLv = 5,
 		SpAmount = { 200, 230, 260, 290, 320 },
 		_NeedSkillList = {
@@ -9603,7 +9643,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SO_ELEMENTAL_SHIELD] = {
 		"SO_ELEMENTAL_SHIELD";
-		SkillName = [[Á¤·ÉÀÇ °á°è]],
+		SkillName = [[Elemental Shield]],
 		MaxLv = 5,
 		SpAmount = { 120, 120, 120, 120, 120 },
 		_NeedSkillList = {
@@ -9613,7 +9653,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SR_FLASHCOMBO] = {
 		"SR_FLASHCOMBO";
-		SkillName = [[¼¶±¤¿¬°Ý(àìÎÃææÌª)]],
+		SkillName = [[Flash Combo]],
 		MaxLv = 5,
 		SpAmount = { 65, 65, 65, 65, 65 },
 		_NeedSkillList = {
@@ -9626,7 +9666,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SC_ESCAPE] = {
 		"SC_ESCAPE";
-		SkillName = [[±ä±ÞÅ»Ãâ]],
+		SkillName = [[Emergency Escape]],
 		MaxLv = 5,
 		SpAmount = { 30, 26, 22, 18, 14 },
 		_NeedSkillList = {
@@ -9636,7 +9676,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AB_OFFERTORIUM] = {
 		"AB_OFFERTORIUM";
-		SkillName = [[¿ÀÆä¸£Åä¸®¿ò]],
+		SkillName = [[Offertorium]],
 		MaxLv = 5,
 		SpAmount = { 30, 60, 90, 120, 150 },
 		_NeedSkillList = {
@@ -9646,7 +9686,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.WL_TELEKINESIS_INTENSE] = {
 		"WL_TELEKINESIS_INTENSE";
-		SkillName = [[ÅÚ·¹Å°³×Æ½ ÀÎÅÙ½º]],
+		SkillName = [[Intense Telekinesis]],
 		MaxLv = 5,
 		SpAmount = { 100, 150, 200, 250, 300 },
 		_NeedSkillList = {
@@ -9656,7 +9696,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.LG_KINGS_GRACE] = {
 		"LG_KINGS_GRACE";
-		SkillName = [[¿ÕÀÇ °¡È£]],
+		SkillName = [[King's Grace]],
 		MaxLv = 5,
 		SpAmount = { 200, 180, 160, 140, 120 },
 		_NeedSkillList = {
@@ -9666,10 +9706,10 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.ALL_FULL_THROTTLE] = {
 		"ALL_FULL_THROTTLE";
-		SkillName = [[Ç® ½º·ÎÆ²]],
+		SkillName = [[Full Throttle]],
 		MaxLv = 5,
 		SpAmount = { 1, 1, 1, 1, 1 },
-		AttackRange = { 1 }
+		AttackRange = { 1, 1, 1, 1, 1 }
 	},
 	[SKID.SR_FLASHCOMBO_ATK_STEP1] = {
 		"SR_FLASHCOMBO_ATK_STEP1";
@@ -10383,7 +10423,7 @@ SKILL_INFO_LIST = {
 	[SKID.EL_COOLER] = {
 		"EL_COOLER";
 		SkillName = [[Cooler]],
-		MaxLv = 0,
+		MaxLv = 0
 	},
 	[SKID.EL_CHILLY_AIR] = {
 		"EL_CHILLY_AIR";
@@ -10602,7 +10642,7 @@ SKILL_INFO_LIST = {
 	[SKID.GD_GLORYGUILD] = {
 		"GD_GLORYGUILD";
 		SkillName = [[Guild Glory]],
-		MaxLv = 0,
+		MaxLv = 0
 	},
 	[SKID.GD_LEADERSHIP] = {
 		"GD_LEADERSHIP";
